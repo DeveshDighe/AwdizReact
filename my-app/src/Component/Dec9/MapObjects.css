@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+#Data{
+    width: 100%;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(3 , 600px);
+    gap: 30px;
+}
+
+#Data>div{
+    border: 1px solid green;
+    display: grid;
+    grid-template-rows: 70% 20% 10%;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+#Data>div>div:nth-child(2){
+    width: 100%;
+    /* border: 1px solid rgb(255, 0, 212); */
+}
+#Data>div>div:nth-child(3){
+    width: 100%;
+    /* border: 1px solid rgb(0, 89, 255); */
+    text-align: center;
+    
+    
+}
+#imgDiv{
+    width: 100%;
+    /* border: 1px solid red; */
+}

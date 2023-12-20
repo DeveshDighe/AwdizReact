@@ -1,0 +1,62 @@
+#MainDiv{
+    width: 100%;
+
+}
+#ProductsList{
+    width: 100%;
+    border: 1px solid rgb(0, 132, 255);
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(7 , 600px);
+   
+    gap: 30px;
+}
+#ProductsDiv{
+    border: 1px solid rgb(19, 235, 250);
+    display: grid;
+    overflow: hidden;
+    grid-template-rows: 60% 10% 5% 25%;
+    border-radius: 10px;
+}
+#ProductsDiv>div{
+    /* border: 1px solid red; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.imgcenter{
+    width: 70%;
+    height: 90%;
+}
+
+#ProductsDiv>:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#ProductsDiv>:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#ProductsDiv>:nth-child(3){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#ProductsDiv>:nth-child(4){
+    display: flex;
+    align-items: start;
+}
+#ProductsDiv>:nth-child(4)>p{
+    font-size: 14px;
+}
+
+.Buy{
+    border: 1px solid rgb(0, 92, 134);
+    background-color: rgb(97, 205, 255);
+    padding: 2px 20px;
+    border-radius: 3px;
+}
